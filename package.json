@@ -1,0 +1,17 @@
+{
+  "name": "ts3-bot",
+  "version": "1.0.0",
+  "description": "A teamspeak chatbot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./index.js"
+  },
+  "author": "chang lu",
+  "license": "ISC",
+  "dependencies": {
+    "tencentcloud-sdk-nodejs-hunyuan": "^4.0.944",
+    "ts3-nodejs-library": "^3.5.1"
+  },
+  "type": "commonjs"
+}
