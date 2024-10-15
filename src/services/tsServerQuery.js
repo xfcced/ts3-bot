@@ -5,7 +5,7 @@ let tsClient
 function initTSClient() {
   return new Promise((resolve, reject) => {
     TeamSpeak.connect({
-      host: 'ts.luchang.xyz',
+      host: '127.0.0.1',
       protocol: QueryProtocol.RAW, //optional
       queryport: 10011, //optional
       serverport: 9987,
